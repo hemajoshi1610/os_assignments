@@ -5,6 +5,6 @@ for file in $1/*
 do 
 	if [ -f $file ]
 	then 
-		stat -c %a $file
+	  ls -l $file
 	fi
 done
